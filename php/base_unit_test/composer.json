@@ -1,0 +1,23 @@
+{
+    "name": "laivu/base_unit_test",
+    "authors": [
+        {
+            "name": "Lai Vu",
+            "email": "vuldh@nal.vn"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
