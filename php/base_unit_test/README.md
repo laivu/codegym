@@ -35,3 +35,9 @@ Time: 163 ms, Memory: 4.00MB
 OK (1 test, 1 assertion)
 
 ```
+
+> Coverage demo
+
+```shell
+$ vendor/bin/phpunit --coverage-html coverage
+```
